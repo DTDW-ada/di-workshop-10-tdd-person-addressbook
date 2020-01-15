@@ -17,7 +17,7 @@ class Person{
         this.mobile.push(mobile)
     }
     formatString(){
-        var string = this.firstName +" "+ this.lastName + "\n" + "----------" + "\n" + "DOB: " + this.dob + "\n" + "\n" + "Email Addresses:" + "\n"+ "\n";
+        var string = this.firstName +" "+ this.lastName + "\n" + "----------" + "\n" + "DOB: " + this.dob + "\n" + "\n" + "Email Addresses:" + "\n";
         let emailcounter = 0;
         while (emailcounter <= this.emails.length - 1){
             string = string + "- " + this.emails[emailcounter] + "\n";

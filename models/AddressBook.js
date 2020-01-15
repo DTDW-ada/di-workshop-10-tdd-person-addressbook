@@ -4,4 +4,4 @@ class AddressBook{
     }
 
 }
-module.export = AddressBook
+module.exports = AddressBook

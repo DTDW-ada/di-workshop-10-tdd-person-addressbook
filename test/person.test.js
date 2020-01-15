@@ -46,7 +46,7 @@ describe('person', ()=> {
             "----------" +"\n"+
             "DOB: 1 Jan 1990" + "\n"+
             "\n" +
-            "Email Addresses:\n" + "\n"+
+            "Email Addresses:\n" +
             "- joe@example.com"+ "\n"+
             "- joe.bloggs@workexample.com" + "\n"+
             "\n"+
